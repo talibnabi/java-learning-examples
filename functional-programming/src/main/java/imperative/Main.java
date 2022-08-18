@@ -11,6 +11,8 @@ public class Main {
                 new Person("Salim", Gender.MALE),
                 new Person("Nurana", Gender.FEMALE)
         );
+
+        //Imperative approach
         List<Person> females = new ArrayList<>();
         for (Person person : people) {
             if (Gender.FEMALE.equals(person.gender)) {
