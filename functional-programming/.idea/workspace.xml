@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/imperative/_Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/imperative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imperative/Main.java" afterDir="false" />
     </list>
@@ -39,7 +40,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._Function">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="imperative.Main" />
       <module name="functional-programming" />
@@ -53,8 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imperative._Function" />
+      <module name="functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imperative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Function" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -67,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660821823560</updated>
-      <workItem from="1660821825159" duration="2095000" />
+      <workItem from="1660821825159" duration="2688000" />
     </task>
     <servers />
   </component>
