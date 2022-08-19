@@ -41,7 +41,20 @@
     "last_opened_file_path": "C:/Workspace/java-learning-examples/functional-programming"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.functional._Function">
+  <component name="RunManager" selected="Application._Consumer">
+    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
+      <module name="functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="functional.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.Example" />
       <module name="functional-programming" />
@@ -70,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Consumer" />
         <item itemvalue="Application.functional._Function" />
         <item itemvalue="Application.functional.Example" />
       </list>
