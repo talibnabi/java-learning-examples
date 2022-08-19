@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/imperative/_Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/imperative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imperative/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/imperative/_Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imperative/_Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imperative/_Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/imperative/_Function.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/java-learning-examples/functional-programming"
   }
 }]]></component>
   <component name="RunManager" selected="Application._Function">
@@ -82,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660821823560</updated>
-      <workItem from="1660821825159" duration="2688000" />
+      <workItem from="1660821825159" duration="5663000" />
+      <workItem from="1660945084772" duration="373000" />
     </task>
     <servers />
   </component>
