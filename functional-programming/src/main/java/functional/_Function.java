@@ -26,4 +26,5 @@ public class _Function {
     private static final Function<Integer, Integer> multiply10 = number -> number * 10;
     private static final BiFunction<Integer, Integer, Integer> biFuncAddAndMultiply =
             (numberForAdd, numberForMultiply) -> (numberForAdd + 1) * numberForMultiply;
+
 }
