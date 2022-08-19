@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functional/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/functional/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/_Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/_Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/functional/_Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/functional/_Function.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "last_opened_file_path": "C:/Workspace/java-learning-examples/functional-programming"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.functional.Example">
+  <component name="RunManager" selected="Application.functional._Function">
     <configuration name="functional.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.Example" />
       <module name="functional-programming" />
@@ -72,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.functional.Example" />
         <item itemvalue="Application.functional._Function" />
+        <item itemvalue="Application.functional.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660821823560</updated>
       <workItem from="1660821825159" duration="5663000" />
-      <workItem from="1660945084772" duration="2655000" />
+      <workItem from="1660945084772" duration="5746000" />
     </task>
     <servers />
   </component>
