@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/declarative/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/declarative/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/function/_Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/function/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/function/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/functional/declarative/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/functional/declarative/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,20 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/java-learning-examples/functional-programming&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.functional.declarative.App">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.function.App" />
+      <module name="functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
       <module name="functional-programming" />
@@ -95,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.functional.declarative.App" />
         <item itemvalue="Application.functional._Consumer" />
         <item itemvalue="Application.functional._Function" />
@@ -112,7 +129,7 @@
       <updated>1660821823560</updated>
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
-      <workItem from="1661078143908" duration="3691000" />
+      <workItem from="1661078143908" duration="5520000" />
     </task>
     <servers />
   </component>
