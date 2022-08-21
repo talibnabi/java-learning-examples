@@ -8,7 +8,8 @@ public class App {
     public static void main(String[] args) {
 //        declarativeApproach();
 //        declarativeApproach2();
-        declarativeApproach3();
+//        declarativeApproach3();
+        declarativeApproach4();
     }
 
     private static void declarativeApproach() {
@@ -47,6 +48,18 @@ public class App {
                 .mapToInt(person -> person.getName().length())
                 .filter(value -> value < 6)
                 .distinct()
+                .forEach(System.out::println);
+    }
+
+    private static void declarativeApproach4() {
+        Stream.of(
+                        new Person("Alisa", Gender.FEMALE),
+                        new Person("Sultan", Gender.MALE),
+                        new Person("Samir", Gender.MALE),
+                        new Person("Salima", Gender.FEMALE)
+                )
+                .mapMultiToInt((person, intConsumer) -> intConsumer.accept(person.getName().length()))
+                .filter(value -> value > 5)
                 .forEach(System.out::println);
     }
 }
