@@ -39,6 +39,6 @@ public class App {
                 new Person("Sultan", Gender.MALE),
                 new Person("Samir", Gender.MALE),
                 new Person("Salima", Gender.FEMALE)
-        ).mapToInt(person -> person.getName().length()).forEach(System.out::println);
+        ).mapToInt(person -> person.getName().length()).filter(value -> value < 6).distinct().forEach(System.out::println);
     }
 }
