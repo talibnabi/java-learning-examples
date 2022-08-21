@@ -8,4 +8,6 @@ public class _Consumer {
             System.out.println("Hello," + customer.getCustomerName() + ",thanks for registering with phone number: " + customer.getCustomerPhoneNumber());
     protected static final BiConsumer<Customer, Boolean> biCustomerConsumer = (customer, showPhoneNumber) ->
             System.out.println("Hello," + customer.getCustomerName() + ",thanks for registering with phone number: " + (showPhoneNumber ? customer.getCustomerPhoneNumber() : "********"));
+    protected static final BiConsumer<String, Integer> biConsumerExample = (text, age) ->
+            System.out.println("name: " + text + " age: " + (age > 5 ? age : -1));
 }
