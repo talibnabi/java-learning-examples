@@ -19,26 +19,35 @@ public class App {
                         new Person("Samir", Gender.MALE),
                         new Person("Salima", Gender.FEMALE)
                 )
-                .filter(person -> Gender.FEMALE.equals(person.getGender())).toList()
+                .filter(person -> Gender.FEMALE.equals(person.getGender()))
+                .toList()
                 .forEach(System.out::println);
     }
 
     private static void declarativeApproach2() {
         Stream.of(
-                new Person("Alisa", Gender.FEMALE),
-                new Person("Sultan", Gender.MALE),
-                new Person("Samir", Gender.MALE),
-                new Person("Salima", Gender.FEMALE)
-        ).map(Person::getGender).distinct().toList().forEach(System.out::println);
+                        new Person("Alisa", Gender.FEMALE),
+                        new Person("Sultan", Gender.MALE),
+                        new Person("Samir", Gender.MALE),
+                        new Person("Salima", Gender.FEMALE)
+                )
+                .map(Person::getGender)
+                .distinct()
+                .toList()
+                .forEach(System.out::println);
 
     }
 
     private static void declarativeApproach3() {
         Stream.of(
-                new Person("Alisa", Gender.FEMALE),
-                new Person("Sultan", Gender.MALE),
-                new Person("Samir", Gender.MALE),
-                new Person("Salima", Gender.FEMALE)
-        ).mapToInt(person -> person.getName().length()).filter(value -> value < 6).distinct().forEach(System.out::println);
+                        new Person("Alisa", Gender.FEMALE),
+                        new Person("Sultan", Gender.MALE),
+                        new Person("Samir", Gender.MALE),
+                        new Person("Salima", Gender.FEMALE)
+                )
+                .mapToInt(person -> person.getName().length())
+                .filter(value -> value < 6)
+                .distinct()
+                .forEach(System.out::println);
     }
 }
