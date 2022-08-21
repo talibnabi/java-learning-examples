@@ -46,21 +46,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/java-learning-examples/functional-programming&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Consumer">
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
-      <module name="functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functional.Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.functional._Consumer">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.Example" />
       <module name="functional-programming" />
       <extension name="coverage">
@@ -73,8 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functional._Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional._Function" />
+      <module name="functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functional._Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
       <module name="functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._Consumer" />
+        <item itemvalue="Application.functional._Consumer" />
         <item itemvalue="Application.functional._Function" />
         <item itemvalue="Application.functional.Example" />
       </list>
