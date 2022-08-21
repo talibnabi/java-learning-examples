@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class App {
-    //https://belief-driven-design.com/functional-programming-with-java-streams-190eda591a5/
-
+    //https://docs.oracle.com/javase/8/docs/api/
     public static void main(String[] args) {
 //        declarativeApproach();
 //        declarativeApproach2();
