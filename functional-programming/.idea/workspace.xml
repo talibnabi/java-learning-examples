@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/_Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/_Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/_Function.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Workspace/java-learning-examples/functional-programming"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/java-learning-examples/functional-programming&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application._Consumer">
     <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
@@ -97,7 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660821823560</updated>
       <workItem from="1660821825159" duration="5663000" />
-      <workItem from="1660945084772" duration="6914000" />
+      <workItem from="1660945084772" duration="6964000" />
+      <workItem from="1661078143908" duration="559000" />
     </task>
     <servers />
   </component>
