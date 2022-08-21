@@ -10,7 +10,7 @@ public class App {
 //        declarativeApproach2();
 //        declarativeApproach3();
 //        declarativeApproach4();
-        declarativeApproach5();
+//        declarativeApproach5();
     }
 
     private static void declarativeApproach() {
