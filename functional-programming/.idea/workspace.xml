@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/predicate/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/predicate/ExerciseFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/predicate/ExerciseSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/predicate/_Predicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/consumer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/consumer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/consumer/_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/consumer/_Consumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/java-learning-examples/functional-programming&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.functional.consumer.App">
+  <component name="RunManager" selected="Application.ExerciseFirst">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.function.App" />
       <module name="functional-programming" />
@@ -56,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional._Consumer" />
+    <configuration name="ExerciseFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.predicate.ExerciseFirst" />
       <module name="functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.declarative.*" />
+          <option name="PATTERN" value="functional.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functional._Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional._Function" />
+    <configuration name="ExerciseSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.predicate.ExerciseSecond" />
       <module name="functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.declarative.*" />
+          <option name="PATTERN" value="functional.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functional.declarative.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.declarative.App" />
+    <configuration name="functional.predicate.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.predicate.App" />
       <module name="functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.declarative.*" />
+          <option name="PATTERN" value="functional.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseFirst" />
+        <item itemvalue="Application.ExerciseSecond" />
+        <item itemvalue="Application.functional.predicate.App" />
         <item itemvalue="Application.functional.consumer.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.functional.declarative.App" />
-        <item itemvalue="Application.functional._Consumer" />
-        <item itemvalue="Application.functional._Function" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +130,7 @@
       <updated>1660821823560</updated>
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
-      <workItem from="1661078143908" duration="8638000" />
+      <workItem from="1661078143908" duration="20847000" />
     </task>
     <servers />
   </component>
