@@ -9,7 +9,8 @@ public class App {
 //        declarativeApproach();
 //        declarativeApproach2();
 //        declarativeApproach3();
-        declarativeApproach4();
+//        declarativeApproach4();
+        declarativeApproach5();
     }
 
     private static void declarativeApproach() {
@@ -61,5 +62,15 @@ public class App {
                 .mapMultiToInt((person, intConsumer) -> intConsumer.accept(person.getName().length()))
                 .filter(value -> value > 5)
                 .forEach(System.out::println);
+    }
+
+    private static void declarativeApproach5() {
+        Stream.of(
+                        new Person("Alisa", Gender.FEMALE),
+                        new Person("Sultan", Gender.MALE),
+                        new Person("Samir", Gender.MALE),
+                        new Person("Salima", Gender.FEMALE)
+                ).reduce(((person, person2) -> person.getName().length() > person2.getName().length() ? person : person2))
+                .ifPresent(System.out::println);
     }
 }
