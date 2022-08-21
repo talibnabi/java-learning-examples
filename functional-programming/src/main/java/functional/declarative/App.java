@@ -8,7 +8,8 @@ public class App {
 
     public static void main(String[] args) {
 //        declarativeApproach();
-        declarativeApproach2();
+//        declarativeApproach2();
+        declarativeApproach3();
     }
 
     private static void declarativeApproach() {
@@ -23,24 +24,21 @@ public class App {
     }
 
     private static void declarativeApproach2() {
-        Stream<Person> personStream = Stream.of(
+        Stream.of(
                 new Person("Alisa", Gender.FEMALE),
                 new Person("Sultan", Gender.MALE),
                 new Person("Samir", Gender.MALE),
                 new Person("Salima", Gender.FEMALE)
-        ).distinct();
-        List<Gender> genders = personStream.map(Person::getGender).toList();
-        System.out.println(genders);
+        ).map(Person::getGender).distinct().toList().forEach(System.out::println);
+
     }
 
     private static void declarativeApproach3() {
-        Stream<Person> personStream = Stream.of(
+        Stream.of(
                 new Person("Alisa", Gender.FEMALE),
                 new Person("Sultan", Gender.MALE),
                 new Person("Samir", Gender.MALE),
                 new Person("Salima", Gender.FEMALE)
-        ).distinct();
-        List<Gender> genders = personStream.map(Person::getGender).toList();
-        System.out.println(genders);
+        ).mapToInt(person -> person.getName().length()).forEach(System.out::println);
     }
 }
