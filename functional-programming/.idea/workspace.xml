@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/optional/_Optional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/optional/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/optional/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/CustomerValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,7 @@
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
       <workItem from="1661078143908" duration="21160000" />
-      <workItem from="1661154886272" duration="8059000" />
+      <workItem from="1661154886272" duration="8702000" />
     </task>
     <servers />
   </component>
