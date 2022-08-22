@@ -1,6 +1,7 @@
 package functional.predicate;
 
 
+import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
 public class _Predicate {
@@ -11,5 +12,8 @@ public class _Predicate {
     protected static final Predicate<Customer> customerPredicate =
             customer -> customer.getCustomerName().equalsIgnoreCase("TALIB")
                     && customer.getCustomerPhoneNumber().equals(166);
-
+    protected static final BiPredicate<Customer, Integer> customerBiPredicate =
+            (biCustomerPredicate, checking) ->
+                    biCustomerPredicate.getCustomerName().equalsIgnoreCase("TALIB")
+                            && biCustomerPredicate.getCustomerPhoneNumber().equals(checking);
 }

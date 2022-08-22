@@ -13,6 +13,8 @@ public class App {
                 .test("0708312165");
         boolean check5 = _Predicate.customerPredicate.
                 test(new Customer("Talib", 166));
-        System.out.println(check5);
+        boolean check6 = _Predicate.customerBiPredicate
+                .test(new Customer("Talib", 166), 166);
+        System.out.println(check6);
     }
 }
