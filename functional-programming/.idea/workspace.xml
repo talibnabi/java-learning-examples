@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/CustomerValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/CustomerValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/combinatorPattern/CustomerValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="functional.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.functional.optional.App">
+  <component name="RunManager" selected="Application.functional.combinatorPattern.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.streams.App" />
       <module name="functional-programming" />
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.predicate.ExerciseFirst" />
+    <configuration name="functional.combinatorPattern.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.combinatorPattern.App" />
       <module name="functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.predicate.*" />
+          <option name="PATTERN" value="functional.combinatorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.functional.combinatorPattern.App" />
         <item itemvalue="Application.functional.optional.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.functional.supplier.App" />
         <item itemvalue="Application.functional.predicate.App" />
-        <item itemvalue="Application.ExerciseFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +134,7 @@
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
       <workItem from="1661078143908" duration="21160000" />
-      <workItem from="1661154886272" duration="8702000" />
+      <workItem from="1661154886272" duration="9333000" />
     </task>
     <servers />
   </component>
