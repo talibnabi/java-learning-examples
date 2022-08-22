@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinationPattern2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinationPattern2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinationPattern2/CustomerRegistrationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinationPattern2/CustomerValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/combinationPattern2/ValidationResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -42,6 +45,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="functional.combinationPattern2" />
       <recent name="functional.streams" />
     </key>
   </component>
@@ -132,7 +136,7 @@
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
       <workItem from="1661078143908" duration="21160000" />
-      <workItem from="1661154886272" duration="10009000" />
+      <workItem from="1661154886272" duration="11214000" />
     </task>
     <servers />
   </component>
