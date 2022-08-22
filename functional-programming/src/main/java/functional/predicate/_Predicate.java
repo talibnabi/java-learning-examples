@@ -8,4 +8,8 @@ public class _Predicate {
             phoneNumber -> phoneNumber.startsWith("070") && phoneNumber.length() == 10;
     protected static final Predicate<String> isValidPhoneNumberContains =
             phoneNumber -> phoneNumber.contains("831");
+    protected static final Predicate<Customer> customerPredicate =
+            customer -> customer.getCustomerName().equalsIgnoreCase("TALIB")
+                    && customer.getCustomerPhoneNumber().equals(166);
+
 }
