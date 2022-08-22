@@ -32,4 +32,10 @@ public interface CustomerRegistrationValidator extends Function<Customer, Valida
                         .getYears() >= 18 ? ValidationResult.SUCCESS :
                         ValidationResult.IS_NOT_AN_ADULT;
     }
+
+    default CustomerRegistrationValidator and(CustomerRegistrationValidator other) {
+        return customer ->
+                this.apply(customer).equals(ValidationResult.SUCCESS) ? other.apply(customer) :
+                        this.apply(customer);
+    }
 }
