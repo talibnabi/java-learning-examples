@@ -6,7 +6,6 @@ import functional.declarative.Gender;
 import java.util.List;
 import java.util.function.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class _Stream {
     private static List<Person> getList() {
@@ -38,5 +37,26 @@ public class _Stream {
                 .filter(len -> len > 5)
                 .distinct()
                 .forEach(intConsumer);
+    }
+
+    protected static void streamExample3() {
+        boolean check = getList()
+                .stream()
+                .allMatch(person -> Gender.FEMALE.equals(person.getGender()));
+        System.out.println(check);
+    }
+
+    protected static void streamExample4() {
+        boolean check = getList()
+                .stream()
+                .anyMatch(person -> Gender.FEMALE.equals(person.getGender()));
+        System.out.println(check);
+    }
+
+    protected static void streamExample5() {
+        boolean check = getList()
+                .stream()
+                .noneMatch(person -> Gender.FEMALE.equals(person.getGender()));
+        System.out.println(check);
     }
 }
