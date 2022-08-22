@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/finalSection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/finalSection/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/lambda/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/lambda/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/lambda/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/lambda/Lambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +47,7 @@
       <recent name="functional.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.functional.finalSection.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.streams.App" />
-      <module name="functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.functional.lambda.App">
     <configuration name="functional.combinationPattern2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.combinationPattern2.App" />
       <module name="functional-programming" />
@@ -99,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="functional.lambda.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.lambda.App" />
+      <module name="functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="functional.optional.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.optional.App" />
       <module name="functional-programming" />
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.functional.lambda.App" />
         <item itemvalue="Application.functional.finalSection.App" />
         <item itemvalue="Application.functional.combinationPattern2.App" />
         <item itemvalue="Application.functional.combinatorPattern.App" />
         <item itemvalue="Application.functional.optional.App" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +134,7 @@
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
       <workItem from="1661078143908" duration="21160000" />
-      <workItem from="1661154886272" duration="13037000" />
+      <workItem from="1661154886272" duration="13545000" />
     </task>
     <servers />
   </component>
