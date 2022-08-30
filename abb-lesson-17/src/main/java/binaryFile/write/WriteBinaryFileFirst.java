@@ -5,10 +5,10 @@ import java.io.FileWriter;
 
 public class WriteBinaryFileFirst {
     public static void main(String[] args) {
-        writBinaryFile();
+        writBinaryToFile();
     }
 
-    protected static void writBinaryFile() {
+    protected static void writBinaryToFile() {
         String fileName = "data.bin";
         File file = new File(fileName);
         try (FileWriter fileWriter = new FileWriter(file, true)) {
