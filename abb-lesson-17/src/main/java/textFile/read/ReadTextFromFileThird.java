@@ -18,7 +18,7 @@ public class ReadTextFromFileThird {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
             Stream<String> line = bufferedReader.lines();
             content = line.collect(Collectors.toList());
-        } catch (IOException ignored) {
+        } catch (Exception ignored) {
             content = new ArrayList<>();
         }
         content.forEach(System.out::println);

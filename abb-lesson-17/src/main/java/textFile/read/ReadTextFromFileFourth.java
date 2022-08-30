@@ -18,7 +18,7 @@ public class ReadTextFromFileFourth {
             Stream<String> line = bufferedReader.lines();
             content = line.collect(Collectors.toList());
             content.forEach(System.out::println);
-        } catch (IOException ignored) {
+        } catch (Exception ignored) {
             System.out.println(fileName + " not found.");
             System.exit(0);
         }
