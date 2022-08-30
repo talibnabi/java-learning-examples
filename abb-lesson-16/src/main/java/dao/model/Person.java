@@ -1,6 +1,6 @@
 package dao.model;
 
-import dao.Identifiable;
+import dao.inter.Identifiable;
 
 import java.io.Serializable;
 
