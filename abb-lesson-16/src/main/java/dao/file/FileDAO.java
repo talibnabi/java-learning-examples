@@ -23,20 +23,19 @@ public class FileDAO<A extends Identifiable> implements DAO<A> {
         }
     }
 
-    private void saveAll(List<A> data) {
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file))) {
-            oos.writeObject(data);
-        } catch (Exception x) {
-            System.out.println("There is an error during save...");
-        }
-    }
-
     @Override
     public Optional<A> load(int id) {
         List<A> all = loadAll();
         return all.stream().filter(p -> p.id() == id).findFirst();
     }
 
+    private void saveAll(List<A> data) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file, true))) {
+            oos.writeObject(data);
+        } catch (Exception x) {
+            System.out.println("There is an error during save...");
+        }
+    }
 
     @Override
     public void save(A p) {
