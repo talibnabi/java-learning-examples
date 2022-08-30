@@ -6,10 +6,10 @@ import java.io.FileReader;
 
 public class ReadTextFromFileFirst {
     public static void main(String[] args) {
-        readFromFile();
+        readTextFromFile();
     }
 
-    protected static void readFromFile() {
+    protected static void readTextFromFile() {
         String fileName = "students.txt";
         File file = new File(fileName);
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
