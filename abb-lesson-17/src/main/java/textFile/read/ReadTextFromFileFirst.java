@@ -1,13 +1,10 @@
-package textFile;
+package textFile.read;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class ReadTextFromFileSecond {
+public class ReadTextFromFileFirst {
     public static void main(String[] args) {
         readTextFromFile();
     }
@@ -15,14 +12,13 @@ public class ReadTextFromFileSecond {
     protected static void readTextFromFile() {
         String fileName = "students.txt";
         File file = new File(fileName);
-        List<String> content = null;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
-            Stream<String> lines = bufferedReader.lines();
-            content = lines.collect(Collectors.toList());
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                System.out.println(line);
+            }
         } catch (Exception ignored) {
             System.out.println("It was ignored.");
         }
-        assert content != null;
-        content.forEach(System.out::println);
     }
 }
