@@ -19,7 +19,7 @@ public class WriteTextToFileSecond {
             bufferedWriter.write("my friend");
             bufferedWriter.write("\n");
         } catch (Exception ignored) {
-            System.out.println("It has ignored.");
+            System.out.println("It was ignored.");
         }
 
     }
