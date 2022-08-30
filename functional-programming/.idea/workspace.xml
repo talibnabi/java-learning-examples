@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/lambda/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/lambda/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/lambda/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/lambda/Lambdas.java" afterDir="false" />
-    </list>
+    <list default="true" id="0cf52275-f600-4fea-8ab3-da79279ec6d7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +131,7 @@
       <workItem from="1660821825159" duration="5663000" />
       <workItem from="1660945084772" duration="6964000" />
       <workItem from="1661078143908" duration="21160000" />
-      <workItem from="1661154886272" duration="13545000" />
+      <workItem from="1661154886272" duration="14367000" />
     </task>
     <servers />
   </component>
