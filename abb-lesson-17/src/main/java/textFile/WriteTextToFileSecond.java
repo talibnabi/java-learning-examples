@@ -11,7 +11,8 @@ public class WriteTextToFileSecond {
 
     protected static void writeTextToFile() {
         String fileName = "students.txt";
-        File file = new File("");
+        File file = new File(fileName);
+//        File file = new File(""); ignored
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file, true))) {
             bufferedWriter.write("Hello");
             bufferedWriter.write("\n");
