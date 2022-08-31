@@ -1,4 +1,4 @@
-package abstracts;
+package abstractsAndInterfaces;
 
 public class Pizza extends Meal {
 
@@ -16,4 +16,13 @@ public class Pizza extends Meal {
         return this.getCount() + addCount;
     }
 
+    @Override
+    public Integer lightlyFryDegree(Integer degree) {
+        return degree;
+    }
+
+    @Override
+    public Integer muchFryDegree(Integer degree) {
+        return degree;
+    }
 }

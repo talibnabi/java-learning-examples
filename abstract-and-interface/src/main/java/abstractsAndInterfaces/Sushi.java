@@ -1,4 +1,4 @@
-package abstracts;
+package abstractsAndInterfaces;
 
 public class Sushi extends Meal {
 
@@ -14,5 +14,15 @@ public class Sushi extends Meal {
     @Override
     protected Integer addCount(Integer addCount) {
         return this.getCount() + addCount;
+    }
+
+    @Override
+    public Integer lightlyFryDegree(Integer degree) {
+        return degree;
+    }
+
+    @Override
+    public Integer muchFryDegree(Integer degree) {
+        return degree;
     }
 }

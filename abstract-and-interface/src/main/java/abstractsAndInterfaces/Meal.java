@@ -1,6 +1,6 @@
-package abstracts;
+package abstractsAndInterfaces;
 
-public abstract class Meal {
+public abstract class Meal extends MealForDinner implements Toasted {
     private final Integer count;
     private final Integer price;
 
@@ -17,6 +17,7 @@ public abstract class Meal {
         System.out.println("count: " + this.getCount());
         System.out.println("price: " + this.getPrice());
     }
+
     public Integer getCount() {
         return count;
     }
