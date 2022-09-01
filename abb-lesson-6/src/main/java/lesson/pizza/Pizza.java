@@ -1,4 +1,4 @@
-package lesson;
+package lesson.pizza;
 
 public class Pizza {
     public String name;

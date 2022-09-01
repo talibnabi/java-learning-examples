@@ -1,4 +1,6 @@
-package lesson;
+package lesson.pizza;
+
+import lesson.pizza.Pizza;
 
 public class PizzaApp {
     public static void main(String[] args) {
@@ -13,5 +15,4 @@ public class PizzaApp {
 //    p.name;
 //    p.size;
     }
-
 }
