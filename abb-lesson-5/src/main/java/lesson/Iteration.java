@@ -1,7 +1,7 @@
 package lesson;
 
 public class Iteration {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         // 1..5
         int n = 1;
         while (n <= 5) {
@@ -52,6 +52,27 @@ public class Iteration {
             i++;
         }
         System.out.println();
-
     }
+
+    public static void main3(String[] args) {
+        int n = 1;
+        while (n <= 5) {
+            System.out.print(n);
+            n++;
+        }
+        n = n + 100;
+    }
+
+    public static void main4(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.print(i);
+        }
+//    i = i + 100;
+    }
+
+    public static void main(String[] args) {
+        int[] xs1 = new int[]{1, 3, 5, 7};
+        int[] xs2 = {1, 3, 5, 7};
+    }
+
 }
