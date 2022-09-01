@@ -20,9 +20,7 @@ public class Person1 {
         // I don't like it
         new Person1("Jim", "Bim", new Person1[]{
                 new Person1("Sergio", "Jim")
-
         });
     }
-
 
 }
