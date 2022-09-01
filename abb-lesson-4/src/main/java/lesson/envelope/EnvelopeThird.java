@@ -2,9 +2,9 @@ package lesson.envelope;
 
 public class EnvelopeThird {
     public static void main(String[] args) {
-        final int width = 8;
-        final int height = 22;
-        String result = showEnvelope(22, 8);
+        final int width = 22;
+        final int height = 8;
+        String result = showEnvelope(width, height);
         System.out.println(result);
     }
 
