@@ -20,6 +20,4 @@ public class PassAppDynamic {
         System.out.println(x1); // 13
         System.out.println(x2); // 23
     }
-
-
 }
