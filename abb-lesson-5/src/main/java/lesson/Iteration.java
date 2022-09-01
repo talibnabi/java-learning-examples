@@ -1,5 +1,7 @@
 package lesson;
 
+import java.util.Arrays;
+
 public class Iteration {
     public static void main2(String[] args) {
         // 1..5
@@ -161,4 +163,11 @@ public class Iteration {
         return new Result(min, max, (double) sum / count);
     }
 
+    // bad:
+    // 1. we modify given array
+    // 2. it's slower, O(N * log N)
+    public static int min2(int[] xs) {
+        Arrays.sort(xs);
+        return xs[0];
+    }
 }
