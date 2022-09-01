@@ -15,6 +15,7 @@ public class Blocks {
         for (int i = 0; i < 10; i++) {
             System.out.print("*");
         }
+        System.out.println();
 
         // 5. compose iterations
         System.out.println("----");
