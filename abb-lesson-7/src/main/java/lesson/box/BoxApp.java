@@ -1,4 +1,6 @@
-package lesson;
+package lesson.box;
+
+import lesson.box.Box;
 
 import java.util.Scanner;
 

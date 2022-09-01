@@ -1,4 +1,4 @@
-package lesson;
+package lesson.box;
 
 import org.junit.jupiter.api.Test;
 

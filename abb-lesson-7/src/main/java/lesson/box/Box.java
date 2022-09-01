@@ -1,4 +1,4 @@
-package lesson;
+package lesson.box;
 
 import java.util.Arrays;
 
