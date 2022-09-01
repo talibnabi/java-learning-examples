@@ -1,7 +1,7 @@
 package lesson;
 
 public class VisibilityApp {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Apple a = new Apple();
         String name = a.name;
         int size = a.size;
@@ -41,7 +41,6 @@ public class VisibilityApp {
             String name1 = this.name;
             int age1 = this.age;
         }
-
 
     }
 
